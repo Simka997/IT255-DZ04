@@ -1,0 +1,115 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #464f54;
+
+}
+video{
+    width:600px;
+
+}
+p,h2{
+    color: #ebdd9e;
+}
+#centralni{
+    margin:10% 10%;
+    margin-top: 25px;
+    padding-left: 12%;
+}
+
+.box {
+ float: left;
+
+ padding:15px 15px 25px 20px;
+}
+.clr{
+    clear: both;
+}
+
+#pozadinska{
+height: 40% !important;
+padding: 0px;
+padding-left: 290px;
+
+}
+#navigacija a{
+    text-decoration: none;
+    color: #000;
+}
+#ponude{
+margin-top: 300px;
+}
+
+#ListaPonuda {
+    width: 66%;
+    background-color: #62a52e;
+    border-radius: 20px;
+    margin-left: 245px !important;
+    margin-top: 2px;
+ }
+
+#ListaPonuda a:hover {
+  color:#ebdd9e;
+}
+
+#ListaPonuda li{
+font-size: 28px;
+font-family: monospace;
+font-style: italic;
+display:inline-block;
+padding: 15px;
+padding-left: 4px;
+}
+
+#pretraga {
+    max-width: 12%;
+    float: right;
+    background-image:url(../img/lupa.jpg);
+background-repeat: no-repeat; 
+background-position:right;
+border-radius: 25px;
+}
+
+
+footer p{
+font-size: 22px;
+background-color: #62a52e;
+color:#000;
+min-width: 200px;
+text-align: center;
+margin: 0;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 60%;
+    margin-left: 18%;
+
+}

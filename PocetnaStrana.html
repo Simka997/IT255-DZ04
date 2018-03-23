@@ -1,0 +1,64 @@
+<html>
+  <meta charset="UTF-8">
+  <meta name="opis" content="IT255-DZ02">
+  <meta name="autor" content="Simonida Mirkovic 3051">
+  <head>
+  	<title>  "Cataleya" kuća cveća </title>
+	<link rel="icon" type = "image/jpg" href="img/logo.jpg" />
+	<link rel="stylesheet" type="text/css" href="css/css-pocetna.css">
+  </head>
+
+<body >
+	<header>
+		<div class="Zaglavlje">
+			<a href="PocetnaStrana.html"><img id="pozadinska" src="img/pozadinska.jpg"></a>
+			<section id="navigacija">
+				<div class="Ponude">
+					<nav>
+						<ul id ="ListaPonuda">
+							<li><a href="O nama.html">O nama</a></li>
+							<li><a href="">Asortiman</a></li>
+							<li><a href="">Saksijsko cveće</a></li>
+							<li><a href="">Sobno cveće</a></li>
+							<li><a href="">Uslovi kupovine</a></li>
+						</ul>				
+					</nav>
+				</div>
+			</section>	
+		</div>;
+	</header>
+		<div class="container">
+
+			<H1> Unesite podatke za dostavu </H1>
+  			<form name = "forma" action="" onsubmit="return validateForm()">
+    			<label for="fname">Ime</label>
+    			<input type="text" id="fname" name="ime" placeholder="Vase ime..">
+
+    			<label for="lname">Prezime</label>
+    			<input type="text" id="lname" name="prezime" placeholder="Vase prezime..">
+    			<label for="tel">Kontakt</label>
+    			<input type="text" id="tel" name="lastname" placeholder="Vas kontakt..">
+
+    			<label for="country">Zemlja</label>
+    		<select id="country" name="zemlja">
+      			<option value="srb">Srbija</option>
+      			<option value="bih">BiH</option>
+      			<option value="cg">Crna Gora</option>
+    		</select>
+
+    		<label for="opis">Opis porudžbine</label>
+    		<textarea id="opis" name="opis" placeholder="Dodatni opis narudžbenice.." style="height:200px"></textarea>
+
+    		<input id="dugme" type="submit" value="Naruči">
+  		</form>
+	</div>
+
+		<div class = "clr">
+
+		</div>
+		<footer>
+	<p ><br /><br />Copyright &copy; 2018. Kuća cveća Cataleya. Sva prava zadržana.</p>
+</footer>
+	<script src="js/js.js" type="text/javascript"></script>
+</body>
+</html>

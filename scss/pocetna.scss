@@ -1,0 +1,156 @@
+
+$color_mako_approx: #464f54;
+$color_zombie_approx: #ebdd9e;
+$black: #000;
+$color_apple_approx: #62a52e;
+$color_celeste_approx: #ccc;
+$white: white;
+$concrete: #f2f2f2;
+
+$font_0: monospace;
+$font_1: Arial;
+$font_2: Helvetica;
+$font_3: sans-serif;
+
+$url_0: url(../img/lupa.jpg);
+
+%extend_1 {
+    margin: 0;
+    padding: 0;
+    background-color: $color_mako_approx;
+}
+
+%extend_2 {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid $color_celeste_approx;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+html {
+    @extend %extend_1;
+}
+
+body {
+    @extend %extend_1;
+    font-family: $font_1, $font_2, $font_3;
+}
+
+video {
+    width: 600px;
+}
+
+p {
+    color: $color_zombie_approx;
+}
+
+h2 {
+    color: $color_zombie_approx;
+}
+
+#centralni {
+    margin: 10%;
+    margin-top: 25px;
+    padding-left: 12%;
+}
+
+.box {
+    float: left;
+    padding: 15px 15px 25px 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+#pozadinska {
+    height: 40% !important;
+    padding: 0;
+    padding-left: 290px;
+}
+
+#ponude {
+    margin-top: 300px;
+}
+
+#ListaPonuda {
+    width: 66%;
+    background-color: $color_apple_approx;
+    border-radius: 20px;
+    margin-left: 245px !important;
+    margin-top: 2px;
+
+    li {
+        font-size: 28px;
+        font-family: $font_0;
+        font-style: italic;
+        display: inline-block;
+        padding: 15px;
+        padding-left: 4px;
+    }
+
+    a:hover {
+        color: $color_zombie_approx;
+    }
+}
+
+#pretraga {
+    max-width: 12%;
+    float: right;
+    background-image: $url_0;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 25px;
+}
+
+input[type=text] {
+    @extend %extend_2;
+}
+
+select {
+    @extend %extend_2;
+}
+
+textarea {
+    @extend %extend_2;
+}
+
+input[type=submit] {
+    background-color: $color_apple_approx;
+    color: $white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color_apple_approx;
+    }
+}
+
+.container {
+    border-radius: 5px;
+    background-color: $concrete;
+    padding: 20px;
+    max-width: 60%;
+    margin-left: 18%;
+}
+
+#navigacija a {
+    text-decoration: none;
+    color: $black;
+}
+
+footer p {
+    font-size: 22px;
+    background-color: $color_apple_approx;
+    color: $black;
+    min-width: 200px;
+    text-align: center;
+    margin: 0;
+}
